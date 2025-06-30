@@ -10,15 +10,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import {
-  User,
-  Award,
-  Calendar,
-  Clock,
-  Target,
-  TrendingUp,
-  Edit3,
-} from 'lucide-react-native';
+import { User, Award, Calendar, Clock, Target, TrendingUp, CreditCard as Edit3 } from 'lucide-react-native';
 
 const { width } = Dimensions.get('window');
 

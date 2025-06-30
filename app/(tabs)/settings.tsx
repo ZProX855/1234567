@@ -9,18 +9,7 @@ import {
   Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import {
-  Settings as SettingsIcon,
-  Bell,
-  Moon,
-  Globe,
-  Shield,
-  HelpCircle,
-  Star,
-  Share,
-  LogOut,
-  ChevronRight,
-} from 'lucide-react-native';
+import { Settings as SettingsIcon, Bell, Moon, Globe, Shield, CircleHelp as HelpCircle, Star, Share, LogOut, ChevronRight } from 'lucide-react-native';
 
 interface SettingItem {
   id: string;
